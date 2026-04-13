@@ -382,7 +382,7 @@ $(function() {
   $('.gallery__link').each(function(){
     $(this)
     .append('<div class="picture"></div>')
-    .children('.picture').css({'background-image': 'url('+ $(this).attr('data-image') +')'});
+    .children('.picture').css({'background-image': 'url("'+ $(this).attr('data-image') +'")'});
   });
   // --------------------------------------------- //
   // PhotoSwipe Gallery Images Replace End
